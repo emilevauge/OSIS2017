@@ -339,16 +339,6 @@ export default class Presentation extends React.Component {
             </Heading>
           </Slide>
 
-          <Slide bgColor="white">
-            <Heading size={1} caps textColor="primary" textSize="170">
-              I have
-            </Heading>
-            <Image src={images.traefik.replace("/", "")} height="200"/>
-            <Heading size={1} caps textColor="primary">
-              Stickers!
-            </Heading>
-          </Slide>
-
           <Slide bgColor="black">
             <BlockQuote>
             <Quote>It's 2016, and I really wish I had a Load Balancer, that works across cloud providers, with a real API for managing dynamic configuration.</Quote>
