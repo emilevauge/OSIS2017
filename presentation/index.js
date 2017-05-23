@@ -328,7 +328,6 @@ export default class Presentation extends React.Component {
             <Image src={images.containous.replace("/", "")} width="800" />
           </Slide>
         
-
           <Slide >
             <Heading size={1} caps >
             We just
